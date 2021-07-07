@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(139, 0, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: crimson;
+    tex: center;
+}
+h1#principal {
+    text-align: center;
+    background-color: darkgrey;
+}
+h2 {
+    color: rgb(200, 214, 0);
+}
+h2#principale {
+    text-align: justify;
+    background-color: darkslategray;
+}
+p{
+    text-align: center;
+    background-color: dodgerblue;
+}
+.quimicos {
+    color: gold;
+}
+.moleculas {
+    color: honeydew;
+}
+.fuerzas {
+    color: greenyellow;
+}
