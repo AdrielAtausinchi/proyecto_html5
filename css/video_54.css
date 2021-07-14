@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "idroid";
+    font-family: "Android";
     src: url('../fonts/idroid.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -15,7 +15,7 @@
     --cor6: #ffffff;    
     --cor7: #000000;
     --fonte0: Arial, Helvetica, sans-serif;
-    --fonte1: 'Bebas Neue', cursive;
+    --fonte1: 'Android', cursive;
     --fonte2: 'Android', sans-serif;
 }
 
@@ -36,7 +36,7 @@ header {
     background-image: linear-gradient(var(--cor3), rgb(0, 0, 0), rgb(5, 0, 0));
     background-attachment: fixed;
     color: var(--cor6);
-    font-family: var(--fonte2);
+    font-family: var(--fonte0);
     height: 150px;  
 }
 
@@ -88,6 +88,7 @@ main {
 
 h2 {            
     color: var(--cor4);
+    font-family: var(--fonte2);
     font-size: 25px;
     margin: 10px 0;
 }
@@ -95,6 +96,7 @@ h2 {
 h3 {
     background-image: linear-gradient(to right,var(--cor1), var(--cor6));
     color: var(--cor4);
+    font-family: var(--fonte2);
     font-size: 20px;
     margin: 10px 0;
     padding: 5px;
